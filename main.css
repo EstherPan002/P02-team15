@@ -1,0 +1,272 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+body {
+  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+  padding: 2rem;
+}
+
+.element {
+  padding-bottom: 2rem;
+  margin-top: 1rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+h2 {
+  margin-top: 6rem;
+}
+
+h3 {
+  font-family: Arial , sans-serif;
+  /*font-style: italic;*/
+  margin-top: 1rem;
+}
+
+h4 {
+  font-family: SoDoSans;
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+}
+
+/* p {
+  font-family: Arial, sans-serif;
+  margin-top: 0;
+  width: 50%;
+} */
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: #ffa60090;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+
+}
+
+.button:hover, .button:focus {
+  background-color: orange;
+}
+
+
+.in-text-elements:hover, .in-text-elements:focus {
+    text-decoration: none;
+    color: orange;
+  }
+
+/*  COMBINED ELEMENTS -------------------*/
+
+.top-nav{
+  background-color: lightskyblue;
+  overflow: hidden;
+}
+
+.top-nav a{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 0.75rem 3rem;
+  text-decoration: none;
+  font-size: 16px;
+
+}
+
+.top-nav a:hover {
+  background-color: #ffa500;
+  color: white;
+}
+
+.top-nav a.active{
+    background-color: orange;
+    color: white;
+}
+
+a:hover img, a:focus img{
+    border-color: lightskyblue;
+    transform: scale(1.1);
+  }
+
+
+  /* list */
+.product-listing {
+  display: grid;
+  padding-top: 2rem;
+  grid-template-columns: repeat(4, 25%);
+
+  justify-content: space-between;
+
+}
+
+.product {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin: auto;
+  text-align: center;
+
+
+}
+.product:hover{
+  transform: scale(1.1);
+
+}
+
+.price{
+  color: #ff6347;
+  font-weight: bold;
+  text-align: center;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.45); 
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.product:hover .overlay {
+  opacity: 1;
+}
+.detail{
+  color: white;
+  
+}
+
+
+
+/* checkout */
+
+.cart-container{
+  margin-top: 1rem;
+    padding:1rem;
+    width: 70%;
+    height: 80%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+   }
+
+.header{
+  margin-top: 20px;
+  margin: auto;
+  width: 90%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart.img{
+  text-align: center;
+  height: auto;
+}
+
+
+.checkout-btn{
+  display: flex;
+  justify-content: left;
+
+}
+
+
+.cart-text{
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.cart-list{
+    margin: auto;
+    width: 90%;
+    height: 30%;  align-items: center;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+/* payment form */
+
+* {
+  box-sizing: border-box;
+}
+
+.pay-container{
+  background-color: #ffffff;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  border:1rem ;
+  padding:1.4rem;
+  max-width: 500px;
+}
+
+.card {
+  max-width: 500px;
+  margin: auto;
+  width: 50%;
+  color: black;
+}
+
+
+.form-control {
+  color: white;
+  background-color: #d3d3d3;
+  border: 2px solid transparent;
+  height: 30px;
+  padding-left: 38px;
+}
+
+.form-control:focus {
+  color: white;
+  background-color: #add8e6;
+  border: 2px solid #2d4dda;
+  box-shadow: none;
+}
+
+
+
+
+  /*grid-template-columns: repeat(3, 20%);*/
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+
+
+
+
+

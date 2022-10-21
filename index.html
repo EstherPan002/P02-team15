@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>P01 - Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1>P01 - Style Guide Template</h1>
+
+      <p>A template you can use to start building out your own style guides with.</p>
+	</header>
+
+      <nav> 
+        <div class="top-nav">       
+        <a href="#interactive_elements">Interactive Elements</a>
+        <a href="#text_elements">Text Elements</a>
+        <a href="#combined_elements">Combined Elements</a>
+        <a href="#product_listing">Product Listing Template</a>
+        <a href="#checkout">Checkout Template</a>
+        <a href="#citations">Citations</a>
+        </div>
+      </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+	</section>
+
+      <section class="element">
+        <h3>In-text link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.in-text-elements</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;class="in-text-elements" href="https://www.google.com/" >Google Search&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+
+        <a class="in-text-elements" href="https://www.google.com/" >Google Search</a>
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+
+        <h3>Navigation Link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+          <div class="top-nav">
+            <a class ="active" href="#Home">Home</a>
+            <a href="New Arrival">New Arrival</a>
+            <a href="Best Seller">Best Seller</a>
+            
+          </div>
+
+      </section>
+
+
+      <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+        <h4>CSS selector:</h4>
+        <p>.button        </p>
+        <h4>Sample code:</h4>
+        <code> &lt;a class="button" href="#">Submit&lt;/a&gt; </code>
+      <h4>Rendered element:</h4>
+  
+
+        <a class="button" href="#">Submit</a>
+
+        <a class="button" href="#">Reset</a>
+      </section>
+
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+        <h4>CSS selector:</h4>
+        <p>.col        </p>
+        <p>.form-control</p>
+        <h4>Sample code:</h4>
+        <code>&lt;input class="form-control" type="text" placeholder="input name here"&gt; </code>
+        <h4>Rendered element:</h4>
+        <div class="col-6">
+          <div class="d-flex flex-column">
+              <input class="form-control" type="text" placeholder="input name here">
+          </div>
+      </div>
+
+
+      <!-- cat categories reference: https://www.petinsurance.com/healthzone/pet-breeds/cat-breeds/lifestyle-cat-breeds/top-10-cat-breeds/ -->
+      <!-- use of checkbox reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label -->
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+        <h4>CSS selector:</h4>
+        <p>.img  </p>
+        <h4>Sample code:</h4>
+        <code> &lt;img src="333.png" alt="figure 3" >&lt;/a&gt; </code>
+
+        <h4>Rendered element:</h4>
+          <a class= "kitty" href="https://kitty.tumblr.com/">
+          <img src="333.png" alt="figure 3" ></a>
+
+      </section>
+
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+      <section class="element">
+        <h3>This is Headings</h3>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+
+      </section>
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+        <p>
+        The cat (Felis catus) is a domestic species of small carnivorous mammal. It is the only domesticated species in the family Felidae and is often referred to as the domestic cat or house cat to distinguish it from the wild members of the family. A cat can either be a house cat, a farm cat, or a feral cat; the latter ranges freely and avoids human contact.Domestic cats are valued by humans for companionship and their ability to kill rodents. About 60 cat breeds are recognized by various cat registries.
+        </p>
+        <!-- this is an online resourse from wikipedia, reference:https://en.wikipedia.org/wiki/Cat -->
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+        <ol>
+        	<li>Monday</li>
+        	<li>Tuesday</li>
+        	<li>Wednesday</li>
+        	<li>Thursday</li>
+        </ol>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+        <div class="top-nav">
+        	<a class ="active" href="#Home">Home</a>
+    	    <a href="New Arrival">New Arrival</a>
+    	    <a href="Best Seller">Best Seller</a>
+    	    <a href="Collections">Collections</a>	  
+    	    <a href="contact">Contact Us</a>
+    	    <a href="about">About</a>
+		    </div>
+      </section>
+
+    <section id="product_listing">
+      <h3>Product/Service Listing</h3>
+      <section class="element">
+        
+      <div class="product-listing">
+      <div class="product">
+      <img src="1.jpeg" alt="figure 1"width="240" >
+      <div class="overlay">
+        <a class="detail" href="https://www.bigbadtoystore.com/Product/VariationDetails/197989">View Detail</a></a>
+      </div>
+      <h4>Genshin Impact Paimon</h4>
+      <p>Condition: Good</p>
+        <div class="price">
+        <p> $40 CAD</p>
+        <a class="button" href="#">Add to Cart</a>
+        </div>  
+      </div>
+
+      <div class="product">
+        <img src="222.jpeg" alt="figure 2" width="240">
+        <div class="overlay" >
+        <a class="detail" href=" https://www.bigbadtoystore.com/Product/VariationDetails/220537">View Detail</a>
+
+        </div>
+        <h4>Ice Queendom RUBY ROSE</h4>
+        <p>Condition: Good</p>
+          <div class="price">
+          <p> $56.99 CAD</p>
+          <a class="button" href="#">Add to Cart</a>
+          </div>
+      </div>
+
+      <div class="product">
+        <img src="333.jpeg" alt="figure 3" width="240">
+        <div class="overlay">
+          <a class="detail" href="https://www.bigbadtoystore.com/Product/VariationDetails/220516">View Detail</a></a>
+        </div>
+        <h4>RILAKKUMA NENDOROID</h4>
+        <p>Condition: Good</p>
+          <div class="price">
+          <p>$40 CAD</p>
+          <a class="button" href="#">Add to Cart</a>
+          </div>
+      </div>
+
+    <div class="product">
+      <img src="4441.jpeg" alt="figure 4" width="240" >
+      <div class="overlay">
+        <a class="detail" href="https://www.bigbadtoystore.com/Product/VariationDetails/124717">View Detail</a></a>
+      </div>
+      <h4>Azur Lane St. Louis</h4>
+      <p>Condition: Good</p>
+        <div class="price">
+        <p>$35 CAD</p>
+        <a class="button" href="#">Add to Cart</a>
+        </div>
+    </div>
+    </div>
+    </section>
+  
+
+
+      <section class="element">
+
+        <h2>Payment Form</h2>
+        <div class="pay-container">
+          <div class="card">
+              <h3>Payment Details</h3>
+                  <div class="col-12">
+                      <div class="text">
+                          <p>Name on Card</p>
+                          <input class="form-control" type="text" placeholder="Name" >
+                      </div>
+                  </div>
+                  <div class="col-12">
+                      <div class="text">
+                          <p>Card Number</p>
+                          <input class="form-control" type="text" placeholder="1234 5678 435678">
+                      </div>
+                  </div>
+                  <div class="col-6">
+                      <div class="text">
+                          <p>Expiry</p>
+                          <input class="form-control" type="text" placeholder="MM/YYYY">
+                      </div>
+                  </div>
+                  <div class="col-6">
+                      <div class="text">
+                          <p>CVV/CVC</p>
+                          <input class="form-control " type="password" placeholder="***">
+                      </div>
+                  </div>
+                  <div class="col-12">
+                   <a class="button" href="#">Continue to checkout</a>
+                      </div>
+                  </div>
+              </div>
+              
+
+      </section>
+
+    <!-- CHECKOUT SECTION // -->
+    <section id="checkout">
+    <h3>Checkout Cart</h3>
+    <section class="element">
+      <div class="cart-container">
+        <div class="header">
+          <h3>Shopping Cart</h3>
+          <a class="in-text-elements" href="file:///Users/esthe/Documents/IAT%20339/P1/P1/index.html#citations" >Edit</a>
+        </div>
+        <div class="cart-list">
+          <div class= "cart-img">
+            <img src="c1.png" alt="product 1"  width=" 120">
+            </div>
+
+            <div class="cart-text">
+              <p>Genshin Impact Paimont</p>
+              <p>Quantity: 1 </p>
+              <p>$40 CAD</p>
+              </div>
+
+          </div>    
+            <!-- picture reference: https://www.turbosquid.com/3d-models/3d-genshin-garage-kit-1814274 -->
+      
+        <div class="cart-list">  
+          <div class= "cart-img">
+            <img src="c2.png" alt="product 2" width="120">
+            </div>
+            
+           <div class="cart-text">  
+            <p>Winter Saw Kanban Musume Die</p>    
+            <p>quantity: 1</p>    
+            <p>$28 CAD</p>        
+            </div>
+        </div>
+
+          <div class ="header">           
+          <h3 class="total">TOTAL: $68 CAD</h3>
+              <a class="button" href="#">Checkout</a>
+              </div>
+        </div>       
+      </div>
+    </section>
+
+
+       <!-- picture reference:https://www.aliexpress.com/item/4000741123434.html -->
+
+
+    <!-- // COMBINED ELEMENTS SECTION -->
+     <section class="brand component">
+     <div class="branding">
+        <h3>About the company</h3>
+        <p>This is a platform for free trading of Japanese manga and figurines. individual sellers can post their collections to the website. The platform provide third-party personnel appraisal that ensures both sellers and buyers could satisfy with the e-commerse experience </p>
+        <p>The target user is mainly interested in Japanese anime, manga, games, gatage kit collectors and other areas of Japanese pop culture.</p>
+        <p>The website provides third-party perfessional agency that improve the trading experience for both buyer and sellers  It ensures buyers could purchase the collection with good quality and condition of the products. Posting the items on the platform also helps  sellers to sell products faster</p>
+
+        </div>
+        </section>
+
+     <section class="brand component">
+        <div class="color">
+         <h3>Colour palettes</h3>
+
+         <img src="color.png" alt="color theme" width：100% >
+
+<!-- 
+		<h1 style="background-color:Tomato;">Red</h1>
+		<h1 style="background-color:Orange;">Orange</h1>
+		<h1 style="background-color:lightskyblue;">Light sky blue</h1>
+		<h1 style="background-color:LightGray;">LightGray</h1>
+		<h1 style="background-color:Black;">Black</h1> -->
+		</div>        
+
+		<div class="fonts"></div>
+		<h3>Fonts</h3>
+		<font face="Arial Rounded MT" size="5">Arial Rounded MT</font><br><br>
+		<font face= "SoDoSans" size="4">SoDoSans</font><br><br>
+		<font face="Arial" size = "3">Arial</font><br><br>
+		</font>
+
+		<div class ="images">
+		<h3>Potential imagenery</h3>
+
+		<img src="11.png" alt="menga shop insperation">
+
+		</div>
+    </section>
+
+    <section id="citations">
+      <h2>Citations</h2>
+
+      <ul>
+        <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
+        <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li>
+        <li>otakumode.com/</li>
+
+      </ul>
+
+    </section>
+
+  </body>
+</html>
